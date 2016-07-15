@@ -1,5 +1,5 @@
 {
-	"extends": "eslint-config-fbjs",
+	"extends": "fbjs",
 	"rules": {
 	  "consistent-return": 0,
 	  "indent": [
