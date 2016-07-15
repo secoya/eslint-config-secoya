@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-secoya",
+  "version": "1.0.0",
+  "description": "Secoya JS eslint base config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/secoya/eslint-config-secoya.git"
+  },
+  "keywords": [
+    "eslint",
+    "secoya"
+  ],
+  "author": "Kaare Hoff Skovgaard <khs@secoya.dk>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/secoya/eslint-config-secoya/issues"
+  },
+  "homepage": "https://github.com/secoya/eslint-config-secoya#readme",
+  "dependencies": {
+    "babel-eslint": "6.1.2",
+    "eslint-config-fbjs": "1.0.0",
+    "eslint-plugin-babel": "3.3.0",
+    "eslint-plugin-flow-vars": "0.4.0",
+    "eslint-plugin-react": "5.2.2"
+  }
+}
