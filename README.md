@@ -17,5 +17,5 @@ lib/**/*.js
 Now you can lint your files in `src` by running:
 
 ```
-node_modules/.bin/eslint src
+./node_modules/.bin/eslint src
 ```
