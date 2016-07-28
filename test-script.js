@@ -54,8 +54,16 @@ for (var i in goodFiles) {
 			});
 			var result = linter.executeOnText(code);
 
+			var errors = result.results[0].messages;
 
-			t.equal(result.results[0].messages.length, 0, 'Errors found: ' + JSON.stringify(result.results[0].messages, undefined, 2));
+			if (errors.length === 0) {
+				t.pass('Found no errors');
+			} else {
+				t.fail(
+					'Errors found: ' +
+					JSON.stringify(result.results[0].messages, undefined, 2)
+				);
+			}
 			t.end();
 		});
 	})(i);
