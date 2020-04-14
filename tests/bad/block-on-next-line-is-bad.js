@@ -1,4 +1,4 @@
-// brace-style line: 2 column: 16
+// brace-style line: 3 column: 1
 export default function()
 {
 

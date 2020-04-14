@@ -21,18 +21,18 @@
   },
   "homepage": "https://github.com/secoya/eslint-config-secoya#readme",
   "dependencies": {
-    "babel-eslint": "6.1.2",
+    "babel-eslint": "10.1.0",
     "eslint-config-fbjs": "1.0.0",
     "eslint-plugin-babel": "3.3.0",
     "eslint-plugin-flow-vars": "0.4.0",
     "eslint-plugin-react": "5.2.2"
   },
   "perrDependencies": {
-    "eslint": "^3.0.1"
+    "eslint": "^4.18.2"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "eslint": "3.0.1",
+    "eslint": "4.18.2",
     "mocha": "^7.1.1",
     "tap-spec": "^5.0.0",
     "tape": "4.6.0"
